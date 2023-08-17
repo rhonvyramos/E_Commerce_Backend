@@ -12,10 +12,10 @@ When "npm start" is executed, the program will launch and listen to port 3001. I
 Note: Using POST or PUT requires these JSON syntaxes:
 Products Example
 {
-    product_name: "Example Product",
-    price: 1776.00,
-    stock: 90,
-    tagIds: [1, 2, 3, 4], tag IDs here must exist 
+    "product_name" : "Example Product",
+    "price" : 1776.00,
+    "stock" : 90,
+    "tagIds" : [1, 2, 3, 4], tag IDs here must exist 
 }
 
 Categories Example
