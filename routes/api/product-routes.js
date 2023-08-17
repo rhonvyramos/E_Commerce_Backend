@@ -33,9 +33,11 @@ router.get('/:id', async (req, res) => {
       include: [
         { 
           model: Category,
+          attributes: ["category_name"]
         },
         {
-          model: Tag,
+          model: Tag, 
+          attributes: ["tag_name"]
         }
       ],
     });
